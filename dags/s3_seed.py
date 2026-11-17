@@ -19,7 +19,7 @@ BUCKET = "maestro-pi-s3-test"
 PREFIX = "maestro-s3-test"
 
 with DAG(
-    dag_id="aws_s3_seed",
+    dag_id="s3_seed",
     schedule=None,
     start_date=datetime(2026, 8, 21),
     catchup=False,
