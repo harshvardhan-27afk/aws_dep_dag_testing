@@ -62,7 +62,7 @@ from dag_parser.dynamic.dag_context import (
 
 # --- Edit these to match your account / Maestro-PI connection ----------------
 AWS_CONN_ID = "aws_default"        # Maestro-PI AWS connection name (Connections page)
-AWS_REGION = "us-east-1"           # region you deployed the stack in
+AWS_REGION = "ap-southeast-2"           # region you deployed the stack in
 AWS_ACCOUNT_ID = "756921148520"    # your 12-digit AWS account id
 PREFIX = "piflow-aws"              # ResourcePrefix parameter of the stack
 # ------------------------------------------------------------------------------
